@@ -1,0 +1,9 @@
+[package]
+name = "batch-rename"
+version = "0.1.0"
+edition = "2024"
+description = "批量重命名指定目录下的文件"
+
+[dependencies]
+clap = { version = "^4", features = ["derive"] }
+regex = "1.0"
